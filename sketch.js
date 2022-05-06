@@ -10,11 +10,11 @@ const sketch = () => {
     context.fillRect(0, 0, width, height);
 
     context.beginPath();
-    context.arc(width / 2, height / 2, 200, 0, Math.PI * 2, false);
+    context.arc(width / 2, height / 2, width * 0.2, 0, Math.PI * 2, false);
     context.fillStyle = "red";
     context.fill();
 
-    context.lineWidth = 20;
+    context.lineWidth = width * 0.02;
     context.strokeStyle = "yellow";
     context.stroke();
   };
