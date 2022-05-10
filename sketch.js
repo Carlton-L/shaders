@@ -19,5 +19,5 @@ const sketch = () => {
     context.stroke();
   };
 };
-
+// TODO
 canvasSketch(sketch, settings);
